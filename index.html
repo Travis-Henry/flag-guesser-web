@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flag Guesser</title>
+    <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
 </head>
 <body>
-    
+    <div id="game">
+        <picture id="picture" src="/resources/flags-img/ad.png">Hello</picture>
+        
+        <form action="guesses">
+            <label for="guess">What country does this flag belong to?</label>
+            <input type="text" id="guess" name="guess">
+            <button type="submit">submit</button>
+        </form>
+    </div>
 </body>
 </html>
