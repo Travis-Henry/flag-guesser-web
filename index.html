@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flag Guesser</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="main.js"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <div id="game">
-        <picture id="picture" src="/resources/flags-img/ad.png">Hello</picture>
-        
-        <form action="guesses">
-            <label for="guess">What country does this flag belong to?</label>
-            <input type="text" id="guess" name="guess">
-            <button type="submit">submit</button>
-        </form>
+    <div class="game">
+        <img class="flag" src="resources/flags-img/ad.png" alt="">     
+        <div id="buttons">
+            <button class="answers" id="button1">placeholder</button>
+            <button class="answers" id="button2">placeholder</button>
+            <button class="answers" id="button3">placeholder</button>
+            <button class="answers" id="button4">placeholder</button>
+            <button class="answers" id="button5">placeholder</button>
+            
+            <button id="nextButton">Next</button>
+        </div>
+       
     </div>
 </body>
 </html>
